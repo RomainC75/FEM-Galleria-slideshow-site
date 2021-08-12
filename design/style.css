@@ -1,0 +1,258 @@
+* {
+  font-family: "Libre Baskerville", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px;
+  border-bottom: 1px solid #E5E5E5;
+}
+header img {
+  margin-bottom: 40px;
+}
+header p {
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.accueil {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  height: 1390px;
+  width: 1360px;
+}
+.accueil__picture {
+  width: 310px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.5s ease-out 0.2s;
+}
+.accueil__picture:hover {
+  opacity: 0.5;
+}
+.accueil__picture img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.accueil__picture__data {
+  position: absolute;
+  color: white;
+  bottom: 20px;
+  left: 25px;
+}
+.accueil__picture__data h2 {
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: 24px;
+}
+.accueil__picture__data h3 {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 13px;
+  color: #FFFFFF;
+}
+
+.darkImage {
+  filter: brightness(80%);
+}
+
+.starryN {
+  height: 250px;
+}
+
+.theStorm {
+  height: 340px;
+}
+
+.ladyWith {
+  height: 420px;
+}
+
+.theBoy {
+  height: 260px;
+}
+
+.girl {
+  height: 400px;
+}
+
+.theGreatWave {
+  height: 280px;
+}
+
+.theNightC {
+  height: 260px;
+}
+
+.arnolfini {
+  height: 330px;
+}
+
+.guernica {
+  height: 285px;
+}
+
+.vanGogh {
+  height: 500px;
+}
+
+.monaLisa {
+  height: 525px;
+}
+
+.penitent {
+  height: 250px;
+}
+
+.theSleepingG {
+  height: 250px;
+}
+
+.theBasket {
+  height: 430px;
+}
+
+.theSwing {
+  height: 340px;
+}
+
+@media (max-width: 1360px) {
+  .accueil {
+    width: 689px;
+    height: 2820px;
+  }
+
+  .starryN {
+    order: 1;
+  }
+
+  .theStorm {
+    order: 3;
+  }
+
+  .ladyWith {
+    order: 5;
+  }
+
+  .theBoy {
+    order: 6;
+  }
+
+  .girl {
+    order: 8;
+  }
+
+  .theGreatWave {
+    order: 10;
+  }
+
+  .theNightC {
+    order: 12;
+  }
+
+  .arnolfini {
+    order: 14;
+  }
+
+  .guernica {
+    order: 2;
+  }
+
+  .vanGogh {
+    order: 4;
+  }
+
+  .monaLisa {
+    order: 7;
+  }
+
+  .penitent {
+    order: 9;
+  }
+
+  .theSleepingG {
+    order: 11;
+  }
+
+  .theBasket {
+    order: 13;
+  }
+
+  .theSwing {
+    order: 15;
+  }
+}
+@media (max-width: 768px) {
+  .accueil {
+    width: 350px;
+    height: 5455px;
+  }
+
+  .starryN {
+    order: 1;
+  }
+
+  .theStorm {
+    order: 5;
+  }
+
+  .ladyWith {
+    order: 9;
+  }
+
+  .theBoy {
+    order: 12;
+  }
+
+  .girl {
+    order: 2;
+  }
+
+  .theGreatWave {
+    order: 6;
+  }
+
+  .theNightC {
+    order: 10;
+  }
+
+  .arnolfini {
+    order: 13;
+  }
+
+  .guernica {
+    order: 3;
+  }
+
+  .vanGogh {
+    order: 7;
+  }
+
+  .monaLisa {
+    order: 14;
+  }
+
+  .penitent {
+    order: 4;
+  }
+
+  .theSleepingG {
+    order: 8;
+  }
+
+  .theBasket {
+    order: 11;
+  }
+
+  .theSwing {
+    order: 15;
+  }
+}/*# sourceMappingURL=style.css.map */
